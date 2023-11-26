@@ -1,13 +1,10 @@
 import "./SearchHeader.css";
 import { useState } from "react";
 
-// eslint-disable-next-line react/prop-types
 function SearchHeader({ search }) {
   const [valueInput, setValue] = useState("");
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    // eslint-disable-next-line no-debugger
-    debugger;
     search(valueInput);
   };
   const handleChange = (e) => {
