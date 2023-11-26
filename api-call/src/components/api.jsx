@@ -8,8 +8,6 @@ const searchImages = async (e) => {
       query: e,
     },
   });
-  // eslint-disable-next-line no-debugger
-  debugger;
   return response.data.results;
 };
 
