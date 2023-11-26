@@ -1,0 +1,23 @@
+.formDiv {
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+form label {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+  font-family: "Times New Roman", Times, serif;
+}
+form input {
+  margin-top: 5px;
+  outline: none;
+  padding: 5px;
+  border: 1px solid lightgray;
+}
